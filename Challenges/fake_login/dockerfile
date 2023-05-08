@@ -1,0 +1,10 @@
+FROM python:3.9-slim
+RUN pip3 install flask lxml -i http://mirrors.aliyun.com/pypi/simple/ 
+COPY app.py /app/app.py
+COPY login.html /app/templates/login.html
+COPY flag /flag
+EXPOSE 8000
+RUN useradd -m -s /bin/bash minictfer
+USER minictfer
+WORKDIR /app
+CMD ["python3", "app.py"]
