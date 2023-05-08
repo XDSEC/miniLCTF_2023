@@ -1,0 +1,52 @@
+reset cx, 0
+    label0:
+getchar dx
+push dx
+inc cx
+cmp cx, 38
+jne label0
+
+reset cx, 0
+    label1:
+mov s[cx], cx
+inc cx
+cmp cx, 256
+jne label1
+
+reset cx, 0
+reset bx, 0
+    label2:
+add bx, s[cx]
+mov ax, cx
+mod ax, 16
+add bx, key[ax]
+mod bx, 256
+xchg s[cx], s[bx]
+inc cx
+cmp cx, 256
+jne label2
+
+
+reset cx, 0
+reset bx, 0
+    label3:
+inc cx
+add bx, s[cx]
+mod bx, 256
+xchg s[cx], s[bx]
+mov ax, s[cx]
+add ax, s[bx]
+mod ax, 256
+mov ax, s[ax]
+pop dx
+xor dx, ax
+mov ax, enc[cx-1]
+cmp dx, ax
+jne failexit
+cmp cx, 32
+jne label3
+
+    failexit:
+SYS_DX_FAIL_EXIT
+    eixt:
+SYS_DX_EXIT

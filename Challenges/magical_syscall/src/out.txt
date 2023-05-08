@@ -1,0 +1,5065 @@
+in reset cx
+reg_addr: 1d27d1cb reg_val: 0
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 61, vm.sp: 0, vm.stack[vm.sp]: 61
+in inc cx
+vm.cx: 0 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1
+in cmp 0
+vm.cx: 1 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 5f, vm.sp: 1, vm.stack[vm.sp]: 5f
+in inc cx
+vm.cx: 1 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 2
+in cmp 0
+vm.cx: 2 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 76, vm.sp: 2, vm.stack[vm.sp]: 76
+in inc cx
+vm.cx: 2 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 3
+in cmp 0
+vm.cx: 3 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 31, vm.sp: 3, vm.stack[vm.sp]: 31
+in inc cx
+vm.cx: 3 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 4
+in cmp 0
+vm.cx: 4 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 72, vm.sp: 4, vm.stack[vm.sp]: 72
+in inc cx
+vm.cx: 4 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 5
+in cmp 0
+vm.cx: 5 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 74, vm.sp: 5, vm.stack[vm.sp]: 74
+in inc cx
+vm.cx: 5 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 6
+in cmp 0
+vm.cx: 6 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 75, vm.sp: 6, vm.stack[vm.sp]: 75
+in inc cx
+vm.cx: 6 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 7
+in cmp 0
+vm.cx: 7 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 40, vm.sp: 7, vm.stack[vm.sp]: 40
+in inc cx
+vm.cx: 7 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 8
+in cmp 0
+vm.cx: 8 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 6c, vm.sp: 8, vm.stack[vm.sp]: 6c
+in inc cx
+vm.cx: 8 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 9
+in cmp 0
+vm.cx: 9 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 5f, vm.sp: 9, vm.stack[vm.sp]: 5f
+in inc cx
+vm.cx: 9 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a
+in cmp 0
+vm.cx: a regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 6d, vm.sp: a, vm.stack[vm.sp]: 6d
+in inc cx
+vm.cx: a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b
+in cmp 0
+vm.cx: b regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 40, vm.sp: b, vm.stack[vm.sp]: 40
+in inc cx
+vm.cx: b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c
+in cmp 0
+vm.cx: c regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 63, vm.sp: c, vm.stack[vm.sp]: 63
+in inc cx
+vm.cx: c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d
+in cmp 0
+vm.cx: d regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 68, vm.sp: d, vm.stack[vm.sp]: 68
+in inc cx
+vm.cx: d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e
+in cmp 0
+vm.cx: e regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 31, vm.sp: e, vm.stack[vm.sp]: 31
+in inc cx
+vm.cx: e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f
+in cmp 0
+vm.cx: f regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 6e, vm.sp: f, vm.stack[vm.sp]: 6e
+in inc cx
+vm.cx: f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 10
+in cmp 0
+vm.cx: 10 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 65, vm.sp: 10, vm.stack[vm.sp]: 65
+in inc cx
+vm.cx: 10 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 11
+in cmp 0
+vm.cx: 11 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 5f, vm.sp: 11, vm.stack[vm.sp]: 5f
+in inc cx
+vm.cx: 11 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 12
+in cmp 0
+vm.cx: 12 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 77, vm.sp: 12, vm.stack[vm.sp]: 77
+in inc cx
+vm.cx: 12 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 13
+in cmp 0
+vm.cx: 13 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 31, vm.sp: 13, vm.stack[vm.sp]: 31
+in inc cx
+vm.cx: 13 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 14
+in cmp 0
+vm.cx: 14 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 74, vm.sp: 14, vm.stack[vm.sp]: 74
+in inc cx
+vm.cx: 14 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 15
+in cmp 0
+vm.cx: 15 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 68, vm.sp: 15, vm.stack[vm.sp]: 68
+in inc cx
+vm.cx: 15 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 16
+in cmp 0
+vm.cx: 16 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 5f, vm.sp: 16, vm.stack[vm.sp]: 5f
+in inc cx
+vm.cx: 16 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 17
+in cmp 0
+vm.cx: 17 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 6d, vm.sp: 17, vm.stack[vm.sp]: 6d
+in inc cx
+vm.cx: 17 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 18
+in cmp 0
+vm.cx: 18 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 61, vm.sp: 18, vm.stack[vm.sp]: 61
+in inc cx
+vm.cx: 18 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 19
+in cmp 0
+vm.cx: 19 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 39, vm.sp: 19, vm.stack[vm.sp]: 39
+in inc cx
+vm.cx: 19 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1a
+in cmp 0
+vm.cx: 1a regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 69, vm.sp: 1a, vm.stack[vm.sp]: 69
+in inc cx
+vm.cx: 1a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1b
+in cmp 0
+vm.cx: 1b regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 63, vm.sp: 1b, vm.stack[vm.sp]: 63
+in inc cx
+vm.cx: 1b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1c
+in cmp 0
+vm.cx: 1c regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 61, vm.sp: 1c, vm.stack[vm.sp]: 61
+in inc cx
+vm.cx: 1c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1d
+in cmp 0
+vm.cx: 1d regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 6c, vm.sp: 1d, vm.stack[vm.sp]: 6c
+in inc cx
+vm.cx: 1d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1e
+in cmp 0
+vm.cx: 1e regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 5f, vm.sp: 1e, vm.stack[vm.sp]: 5f
+in inc cx
+vm.cx: 1e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1f
+in cmp 0
+vm.cx: 1f regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 73, vm.sp: 1f, vm.stack[vm.sp]: 73
+in inc cx
+vm.cx: 1f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 20
+in cmp 0
+vm.cx: 20 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 79, vm.sp: 20, vm.stack[vm.sp]: 79
+in inc cx
+vm.cx: 20 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 21
+in cmp 0
+vm.cx: 21 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 24, vm.sp: 21, vm.stack[vm.sp]: 24
+in inc cx
+vm.cx: 21 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 22
+in cmp 0
+vm.cx: 22 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 63, vm.sp: 22, vm.stack[vm.sp]: 63
+in inc cx
+vm.cx: 22 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 23
+in cmp 0
+vm.cx: 23 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 61, vm.sp: 23, vm.stack[vm.sp]: 61
+in inc cx
+vm.cx: 23 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 24
+in cmp 0
+vm.cx: 24 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 6c, vm.sp: 24, vm.stack[vm.sp]: 6c
+in inc cx
+vm.cx: 24 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 25
+in cmp 0
+vm.cx: 25 regs.rsi: 26
+jmp to 2
+in getchar:
+rdi: 0 rsi: 1d27f074 rdx: 1
+in push
+vm.dx: 6c, vm.sp: 25, vm.stack[vm.sp]: 6c
+in inc cx
+vm.cx: 25 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 26
+in cmp 0
+vm.cx: 26 regs.rsi: 26
+jne failed b
+in reset cx
+reg_addr: 72206e69 reg_val: 0
+in mov
+mov s[cx], cx  cx: 0 s[cx] = 0
+in inc cx
+vm.cx: 0 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1
+in cmp 0
+vm.cx: 1 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 1 s[cx] = 1
+in inc cx
+vm.cx: 1 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 2
+in cmp 0
+vm.cx: 2 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 2 s[cx] = 2
+in inc cx
+vm.cx: 2 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 3
+in cmp 0
+vm.cx: 3 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 3 s[cx] = 3
+in inc cx
+vm.cx: 3 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 4
+in cmp 0
+vm.cx: 4 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 4 s[cx] = 4
+in inc cx
+vm.cx: 4 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 5
+in cmp 0
+vm.cx: 5 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 5 s[cx] = 5
+in inc cx
+vm.cx: 5 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 6
+in cmp 0
+vm.cx: 6 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 6 s[cx] = 6
+in inc cx
+vm.cx: 6 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 7
+in cmp 0
+vm.cx: 7 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 7 s[cx] = 7
+in inc cx
+vm.cx: 7 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 8
+in cmp 0
+vm.cx: 8 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 8 s[cx] = 8
+in inc cx
+vm.cx: 8 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 9
+in cmp 0
+vm.cx: 9 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 9 s[cx] = 9
+in inc cx
+vm.cx: 9 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a
+in cmp 0
+vm.cx: a regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: a s[cx] = a
+in inc cx
+vm.cx: a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b
+in cmp 0
+vm.cx: b regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: b s[cx] = b
+in inc cx
+vm.cx: b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c
+in cmp 0
+vm.cx: c regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: c s[cx] = c
+in inc cx
+vm.cx: c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d
+in cmp 0
+vm.cx: d regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: d s[cx] = d
+in inc cx
+vm.cx: d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e
+in cmp 0
+vm.cx: e regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: e s[cx] = e
+in inc cx
+vm.cx: e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f
+in cmp 0
+vm.cx: f regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: f s[cx] = f
+in inc cx
+vm.cx: f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 10
+in cmp 0
+vm.cx: 10 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 10 s[cx] = 10
+in inc cx
+vm.cx: 10 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 11
+in cmp 0
+vm.cx: 11 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 11 s[cx] = 11
+in inc cx
+vm.cx: 11 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 12
+in cmp 0
+vm.cx: 12 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 12 s[cx] = 12
+in inc cx
+vm.cx: 12 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 13
+in cmp 0
+vm.cx: 13 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 13 s[cx] = 13
+in inc cx
+vm.cx: 13 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 14
+in cmp 0
+vm.cx: 14 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 14 s[cx] = 14
+in inc cx
+vm.cx: 14 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 15
+in cmp 0
+vm.cx: 15 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 15 s[cx] = 15
+in inc cx
+vm.cx: 15 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 16
+in cmp 0
+vm.cx: 16 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 16 s[cx] = 16
+in inc cx
+vm.cx: 16 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 17
+in cmp 0
+vm.cx: 17 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 17 s[cx] = 17
+in inc cx
+vm.cx: 17 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 18
+in cmp 0
+vm.cx: 18 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 18 s[cx] = 18
+in inc cx
+vm.cx: 18 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 19
+in cmp 0
+vm.cx: 19 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 19 s[cx] = 19
+in inc cx
+vm.cx: 19 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1a
+in cmp 0
+vm.cx: 1a regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 1a s[cx] = 1a
+in inc cx
+vm.cx: 1a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1b
+in cmp 0
+vm.cx: 1b regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 1b s[cx] = 1b
+in inc cx
+vm.cx: 1b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1c
+in cmp 0
+vm.cx: 1c regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 1c s[cx] = 1c
+in inc cx
+vm.cx: 1c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1d
+in cmp 0
+vm.cx: 1d regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 1d s[cx] = 1d
+in inc cx
+vm.cx: 1d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1e
+in cmp 0
+vm.cx: 1e regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 1e s[cx] = 1e
+in inc cx
+vm.cx: 1e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1f
+in cmp 0
+vm.cx: 1f regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 1f s[cx] = 1f
+in inc cx
+vm.cx: 1f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 20
+in cmp 0
+vm.cx: 20 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 20 s[cx] = 20
+in inc cx
+vm.cx: 20 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 21
+in cmp 0
+vm.cx: 21 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 21 s[cx] = 21
+in inc cx
+vm.cx: 21 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 22
+in cmp 0
+vm.cx: 22 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 22 s[cx] = 22
+in inc cx
+vm.cx: 22 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 23
+in cmp 0
+vm.cx: 23 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 23 s[cx] = 23
+in inc cx
+vm.cx: 23 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 24
+in cmp 0
+vm.cx: 24 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 24 s[cx] = 24
+in inc cx
+vm.cx: 24 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 25
+in cmp 0
+vm.cx: 25 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 25 s[cx] = 25
+in inc cx
+vm.cx: 25 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 26
+in cmp 0
+vm.cx: 26 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 26 s[cx] = 26
+in inc cx
+vm.cx: 26 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 27
+in cmp 0
+vm.cx: 27 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 27 s[cx] = 27
+in inc cx
+vm.cx: 27 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 28
+in cmp 0
+vm.cx: 28 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 28 s[cx] = 28
+in inc cx
+vm.cx: 28 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 29
+in cmp 0
+vm.cx: 29 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 29 s[cx] = 29
+in inc cx
+vm.cx: 29 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 2a
+in cmp 0
+vm.cx: 2a regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 2a s[cx] = 2a
+in inc cx
+vm.cx: 2a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 2b
+in cmp 0
+vm.cx: 2b regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 2b s[cx] = 2b
+in inc cx
+vm.cx: 2b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 2c
+in cmp 0
+vm.cx: 2c regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 2c s[cx] = 2c
+in inc cx
+vm.cx: 2c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 2d
+in cmp 0
+vm.cx: 2d regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 2d s[cx] = 2d
+in inc cx
+vm.cx: 2d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 2e
+in cmp 0
+vm.cx: 2e regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 2e s[cx] = 2e
+in inc cx
+vm.cx: 2e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 2f
+in cmp 0
+vm.cx: 2f regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 2f s[cx] = 2f
+in inc cx
+vm.cx: 2f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 30
+in cmp 0
+vm.cx: 30 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 30 s[cx] = 30
+in inc cx
+vm.cx: 30 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 31
+in cmp 0
+vm.cx: 31 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 31 s[cx] = 31
+in inc cx
+vm.cx: 31 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 32
+in cmp 0
+vm.cx: 32 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 32 s[cx] = 32
+in inc cx
+vm.cx: 32 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 33
+in cmp 0
+vm.cx: 33 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 33 s[cx] = 33
+in inc cx
+vm.cx: 33 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 34
+in cmp 0
+vm.cx: 34 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 34 s[cx] = 34
+in inc cx
+vm.cx: 34 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 35
+in cmp 0
+vm.cx: 35 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 35 s[cx] = 35
+in inc cx
+vm.cx: 35 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 36
+in cmp 0
+vm.cx: 36 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 36 s[cx] = 36
+in inc cx
+vm.cx: 36 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 37
+in cmp 0
+vm.cx: 37 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 37 s[cx] = 37
+in inc cx
+vm.cx: 37 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 38
+in cmp 0
+vm.cx: 38 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 38 s[cx] = 38
+in inc cx
+vm.cx: 38 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 39
+in cmp 0
+vm.cx: 39 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 39 s[cx] = 39
+in inc cx
+vm.cx: 39 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 3a
+in cmp 0
+vm.cx: 3a regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 3a s[cx] = 3a
+in inc cx
+vm.cx: 3a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 3b
+in cmp 0
+vm.cx: 3b regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 3b s[cx] = 3b
+in inc cx
+vm.cx: 3b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 3c
+in cmp 0
+vm.cx: 3c regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 3c s[cx] = 3c
+in inc cx
+vm.cx: 3c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 3d
+in cmp 0
+vm.cx: 3d regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 3d s[cx] = 3d
+in inc cx
+vm.cx: 3d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 3e
+in cmp 0
+vm.cx: 3e regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 3e s[cx] = 3e
+in inc cx
+vm.cx: 3e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 3f
+in cmp 0
+vm.cx: 3f regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 3f s[cx] = 3f
+in inc cx
+vm.cx: 3f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 40
+in cmp 0
+vm.cx: 40 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 40 s[cx] = 40
+in inc cx
+vm.cx: 40 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 41
+in cmp 0
+vm.cx: 41 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 41 s[cx] = 41
+in inc cx
+vm.cx: 41 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 42
+in cmp 0
+vm.cx: 42 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 42 s[cx] = 42
+in inc cx
+vm.cx: 42 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 43
+in cmp 0
+vm.cx: 43 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 43 s[cx] = 43
+in inc cx
+vm.cx: 43 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 44
+in cmp 0
+vm.cx: 44 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 44 s[cx] = 44
+in inc cx
+vm.cx: 44 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 45
+in cmp 0
+vm.cx: 45 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 45 s[cx] = 45
+in inc cx
+vm.cx: 45 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 46
+in cmp 0
+vm.cx: 46 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 46 s[cx] = 46
+in inc cx
+vm.cx: 46 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 47
+in cmp 0
+vm.cx: 47 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 47 s[cx] = 47
+in inc cx
+vm.cx: 47 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 48
+in cmp 0
+vm.cx: 48 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 48 s[cx] = 48
+in inc cx
+vm.cx: 48 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 49
+in cmp 0
+vm.cx: 49 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 49 s[cx] = 49
+in inc cx
+vm.cx: 49 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 4a
+in cmp 0
+vm.cx: 4a regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 4a s[cx] = 4a
+in inc cx
+vm.cx: 4a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 4b
+in cmp 0
+vm.cx: 4b regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 4b s[cx] = 4b
+in inc cx
+vm.cx: 4b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 4c
+in cmp 0
+vm.cx: 4c regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 4c s[cx] = 4c
+in inc cx
+vm.cx: 4c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 4d
+in cmp 0
+vm.cx: 4d regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 4d s[cx] = 4d
+in inc cx
+vm.cx: 4d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 4e
+in cmp 0
+vm.cx: 4e regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 4e s[cx] = 4e
+in inc cx
+vm.cx: 4e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 4f
+in cmp 0
+vm.cx: 4f regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 4f s[cx] = 4f
+in inc cx
+vm.cx: 4f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 50
+in cmp 0
+vm.cx: 50 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 50 s[cx] = 50
+in inc cx
+vm.cx: 50 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 51
+in cmp 0
+vm.cx: 51 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 51 s[cx] = 51
+in inc cx
+vm.cx: 51 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 52
+in cmp 0
+vm.cx: 52 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 52 s[cx] = 52
+in inc cx
+vm.cx: 52 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 53
+in cmp 0
+vm.cx: 53 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 53 s[cx] = 53
+in inc cx
+vm.cx: 53 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 54
+in cmp 0
+vm.cx: 54 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 54 s[cx] = 54
+in inc cx
+vm.cx: 54 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 55
+in cmp 0
+vm.cx: 55 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 55 s[cx] = 55
+in inc cx
+vm.cx: 55 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 56
+in cmp 0
+vm.cx: 56 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 56 s[cx] = 56
+in inc cx
+vm.cx: 56 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 57
+in cmp 0
+vm.cx: 57 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 57 s[cx] = 57
+in inc cx
+vm.cx: 57 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 58
+in cmp 0
+vm.cx: 58 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 58 s[cx] = 58
+in inc cx
+vm.cx: 58 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 59
+in cmp 0
+vm.cx: 59 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 59 s[cx] = 59
+in inc cx
+vm.cx: 59 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 5a
+in cmp 0
+vm.cx: 5a regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 5a s[cx] = 5a
+in inc cx
+vm.cx: 5a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 5b
+in cmp 0
+vm.cx: 5b regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 5b s[cx] = 5b
+in inc cx
+vm.cx: 5b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 5c
+in cmp 0
+vm.cx: 5c regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 5c s[cx] = 5c
+in inc cx
+vm.cx: 5c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 5d
+in cmp 0
+vm.cx: 5d regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 5d s[cx] = 5d
+in inc cx
+vm.cx: 5d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 5e
+in cmp 0
+vm.cx: 5e regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 5e s[cx] = 5e
+in inc cx
+vm.cx: 5e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 5f
+in cmp 0
+vm.cx: 5f regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 5f s[cx] = 5f
+in inc cx
+vm.cx: 5f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 60
+in cmp 0
+vm.cx: 60 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 60 s[cx] = 60
+in inc cx
+vm.cx: 60 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 61
+in cmp 0
+vm.cx: 61 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 61 s[cx] = 61
+in inc cx
+vm.cx: 61 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 62
+in cmp 0
+vm.cx: 62 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 62 s[cx] = 62
+in inc cx
+vm.cx: 62 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 63
+in cmp 0
+vm.cx: 63 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 63 s[cx] = 63
+in inc cx
+vm.cx: 63 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 64
+in cmp 0
+vm.cx: 64 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 64 s[cx] = 64
+in inc cx
+vm.cx: 64 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 65
+in cmp 0
+vm.cx: 65 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 65 s[cx] = 65
+in inc cx
+vm.cx: 65 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 66
+in cmp 0
+vm.cx: 66 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 66 s[cx] = 66
+in inc cx
+vm.cx: 66 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 67
+in cmp 0
+vm.cx: 67 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 67 s[cx] = 67
+in inc cx
+vm.cx: 67 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 68
+in cmp 0
+vm.cx: 68 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 68 s[cx] = 68
+in inc cx
+vm.cx: 68 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 69
+in cmp 0
+vm.cx: 69 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 69 s[cx] = 69
+in inc cx
+vm.cx: 69 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 6a
+in cmp 0
+vm.cx: 6a regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 6a s[cx] = 6a
+in inc cx
+vm.cx: 6a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 6b
+in cmp 0
+vm.cx: 6b regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 6b s[cx] = 6b
+in inc cx
+vm.cx: 6b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 6c
+in cmp 0
+vm.cx: 6c regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 6c s[cx] = 6c
+in inc cx
+vm.cx: 6c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 6d
+in cmp 0
+vm.cx: 6d regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 6d s[cx] = 6d
+in inc cx
+vm.cx: 6d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 6e
+in cmp 0
+vm.cx: 6e regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 6e s[cx] = 6e
+in inc cx
+vm.cx: 6e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 6f
+in cmp 0
+vm.cx: 6f regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 6f s[cx] = 6f
+in inc cx
+vm.cx: 6f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 70
+in cmp 0
+vm.cx: 70 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 70 s[cx] = 70
+in inc cx
+vm.cx: 70 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 71
+in cmp 0
+vm.cx: 71 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 71 s[cx] = 71
+in inc cx
+vm.cx: 71 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 72
+in cmp 0
+vm.cx: 72 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 72 s[cx] = 72
+in inc cx
+vm.cx: 72 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 73
+in cmp 0
+vm.cx: 73 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 73 s[cx] = 73
+in inc cx
+vm.cx: 73 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 74
+in cmp 0
+vm.cx: 74 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 74 s[cx] = 74
+in inc cx
+vm.cx: 74 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 75
+in cmp 0
+vm.cx: 75 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 75 s[cx] = 75
+in inc cx
+vm.cx: 75 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 76
+in cmp 0
+vm.cx: 76 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 76 s[cx] = 76
+in inc cx
+vm.cx: 76 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 77
+in cmp 0
+vm.cx: 77 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 77 s[cx] = 77
+in inc cx
+vm.cx: 77 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 78
+in cmp 0
+vm.cx: 78 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 78 s[cx] = 78
+in inc cx
+vm.cx: 78 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 79
+in cmp 0
+vm.cx: 79 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 79 s[cx] = 79
+in inc cx
+vm.cx: 79 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 7a
+in cmp 0
+vm.cx: 7a regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 7a s[cx] = 7a
+in inc cx
+vm.cx: 7a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 7b
+in cmp 0
+vm.cx: 7b regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 7b s[cx] = 7b
+in inc cx
+vm.cx: 7b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 7c
+in cmp 0
+vm.cx: 7c regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 7c s[cx] = 7c
+in inc cx
+vm.cx: 7c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 7d
+in cmp 0
+vm.cx: 7d regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 7d s[cx] = 7d
+in inc cx
+vm.cx: 7d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 7e
+in cmp 0
+vm.cx: 7e regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 7e s[cx] = 7e
+in inc cx
+vm.cx: 7e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 7f
+in cmp 0
+vm.cx: 7f regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 7f s[cx] = 7f
+in inc cx
+vm.cx: 7f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 80
+in cmp 0
+vm.cx: 80 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 80 s[cx] = 80
+in inc cx
+vm.cx: 80 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 81
+in cmp 0
+vm.cx: 81 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 81 s[cx] = 81
+in inc cx
+vm.cx: 81 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 82
+in cmp 0
+vm.cx: 82 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 82 s[cx] = 82
+in inc cx
+vm.cx: 82 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 83
+in cmp 0
+vm.cx: 83 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 83 s[cx] = 83
+in inc cx
+vm.cx: 83 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 84
+in cmp 0
+vm.cx: 84 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 84 s[cx] = 84
+in inc cx
+vm.cx: 84 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 85
+in cmp 0
+vm.cx: 85 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 85 s[cx] = 85
+in inc cx
+vm.cx: 85 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 86
+in cmp 0
+vm.cx: 86 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 86 s[cx] = 86
+in inc cx
+vm.cx: 86 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 87
+in cmp 0
+vm.cx: 87 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 87 s[cx] = 87
+in inc cx
+vm.cx: 87 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 88
+in cmp 0
+vm.cx: 88 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 88 s[cx] = 88
+in inc cx
+vm.cx: 88 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 89
+in cmp 0
+vm.cx: 89 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 89 s[cx] = 89
+in inc cx
+vm.cx: 89 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 8a
+in cmp 0
+vm.cx: 8a regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 8a s[cx] = 8a
+in inc cx
+vm.cx: 8a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 8b
+in cmp 0
+vm.cx: 8b regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 8b s[cx] = 8b
+in inc cx
+vm.cx: 8b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 8c
+in cmp 0
+vm.cx: 8c regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 8c s[cx] = 8c
+in inc cx
+vm.cx: 8c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 8d
+in cmp 0
+vm.cx: 8d regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 8d s[cx] = 8d
+in inc cx
+vm.cx: 8d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 8e
+in cmp 0
+vm.cx: 8e regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 8e s[cx] = 8e
+in inc cx
+vm.cx: 8e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 8f
+in cmp 0
+vm.cx: 8f regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 8f s[cx] = 8f
+in inc cx
+vm.cx: 8f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 90
+in cmp 0
+vm.cx: 90 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 90 s[cx] = 90
+in inc cx
+vm.cx: 90 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 91
+in cmp 0
+vm.cx: 91 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 91 s[cx] = 91
+in inc cx
+vm.cx: 91 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 92
+in cmp 0
+vm.cx: 92 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 92 s[cx] = 92
+in inc cx
+vm.cx: 92 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 93
+in cmp 0
+vm.cx: 93 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 93 s[cx] = 93
+in inc cx
+vm.cx: 93 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 94
+in cmp 0
+vm.cx: 94 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 94 s[cx] = 94
+in inc cx
+vm.cx: 94 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 95
+in cmp 0
+vm.cx: 95 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 95 s[cx] = 95
+in inc cx
+vm.cx: 95 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 96
+in cmp 0
+vm.cx: 96 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 96 s[cx] = 96
+in inc cx
+vm.cx: 96 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 97
+in cmp 0
+vm.cx: 97 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 97 s[cx] = 97
+in inc cx
+vm.cx: 97 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 98
+in cmp 0
+vm.cx: 98 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 98 s[cx] = 98
+in inc cx
+vm.cx: 98 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 99
+in cmp 0
+vm.cx: 99 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 99 s[cx] = 99
+in inc cx
+vm.cx: 99 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 9a
+in cmp 0
+vm.cx: 9a regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 9a s[cx] = 9a
+in inc cx
+vm.cx: 9a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 9b
+in cmp 0
+vm.cx: 9b regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 9b s[cx] = 9b
+in inc cx
+vm.cx: 9b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 9c
+in cmp 0
+vm.cx: 9c regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 9c s[cx] = 9c
+in inc cx
+vm.cx: 9c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 9d
+in cmp 0
+vm.cx: 9d regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 9d s[cx] = 9d
+in inc cx
+vm.cx: 9d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 9e
+in cmp 0
+vm.cx: 9e regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 9e s[cx] = 9e
+in inc cx
+vm.cx: 9e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 9f
+in cmp 0
+vm.cx: 9f regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: 9f s[cx] = 9f
+in inc cx
+vm.cx: 9f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a0
+in cmp 0
+vm.cx: a0 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: a0 s[cx] = a0
+in inc cx
+vm.cx: a0 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a1
+in cmp 0
+vm.cx: a1 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: a1 s[cx] = a1
+in inc cx
+vm.cx: a1 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a2
+in cmp 0
+vm.cx: a2 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: a2 s[cx] = a2
+in inc cx
+vm.cx: a2 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a3
+in cmp 0
+vm.cx: a3 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: a3 s[cx] = a3
+in inc cx
+vm.cx: a3 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a4
+in cmp 0
+vm.cx: a4 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: a4 s[cx] = a4
+in inc cx
+vm.cx: a4 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a5
+in cmp 0
+vm.cx: a5 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: a5 s[cx] = a5
+in inc cx
+vm.cx: a5 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a6
+in cmp 0
+vm.cx: a6 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: a6 s[cx] = a6
+in inc cx
+vm.cx: a6 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a7
+in cmp 0
+vm.cx: a7 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: a7 s[cx] = a7
+in inc cx
+vm.cx: a7 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a8
+in cmp 0
+vm.cx: a8 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: a8 s[cx] = a8
+in inc cx
+vm.cx: a8 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a9
+in cmp 0
+vm.cx: a9 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: a9 s[cx] = a9
+in inc cx
+vm.cx: a9 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: aa
+in cmp 0
+vm.cx: aa regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: aa s[cx] = aa
+in inc cx
+vm.cx: aa vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ab
+in cmp 0
+vm.cx: ab regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: ab s[cx] = ab
+in inc cx
+vm.cx: ab vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ac
+in cmp 0
+vm.cx: ac regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: ac s[cx] = ac
+in inc cx
+vm.cx: ac vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ad
+in cmp 0
+vm.cx: ad regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: ad s[cx] = ad
+in inc cx
+vm.cx: ad vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ae
+in cmp 0
+vm.cx: ae regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: ae s[cx] = ae
+in inc cx
+vm.cx: ae vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: af
+in cmp 0
+vm.cx: af regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: af s[cx] = af
+in inc cx
+vm.cx: af vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b0
+in cmp 0
+vm.cx: b0 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: b0 s[cx] = b0
+in inc cx
+vm.cx: b0 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b1
+in cmp 0
+vm.cx: b1 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: b1 s[cx] = b1
+in inc cx
+vm.cx: b1 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b2
+in cmp 0
+vm.cx: b2 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: b2 s[cx] = b2
+in inc cx
+vm.cx: b2 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b3
+in cmp 0
+vm.cx: b3 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: b3 s[cx] = b3
+in inc cx
+vm.cx: b3 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b4
+in cmp 0
+vm.cx: b4 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: b4 s[cx] = b4
+in inc cx
+vm.cx: b4 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b5
+in cmp 0
+vm.cx: b5 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: b5 s[cx] = b5
+in inc cx
+vm.cx: b5 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b6
+in cmp 0
+vm.cx: b6 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: b6 s[cx] = b6
+in inc cx
+vm.cx: b6 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b7
+in cmp 0
+vm.cx: b7 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: b7 s[cx] = b7
+in inc cx
+vm.cx: b7 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b8
+in cmp 0
+vm.cx: b8 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: b8 s[cx] = b8
+in inc cx
+vm.cx: b8 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b9
+in cmp 0
+vm.cx: b9 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: b9 s[cx] = b9
+in inc cx
+vm.cx: b9 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ba
+in cmp 0
+vm.cx: ba regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: ba s[cx] = ba
+in inc cx
+vm.cx: ba vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: bb
+in cmp 0
+vm.cx: bb regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: bb s[cx] = bb
+in inc cx
+vm.cx: bb vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: bc
+in cmp 0
+vm.cx: bc regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: bc s[cx] = bc
+in inc cx
+vm.cx: bc vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: bd
+in cmp 0
+vm.cx: bd regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: bd s[cx] = bd
+in inc cx
+vm.cx: bd vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: be
+in cmp 0
+vm.cx: be regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: be s[cx] = be
+in inc cx
+vm.cx: be vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: bf
+in cmp 0
+vm.cx: bf regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: bf s[cx] = bf
+in inc cx
+vm.cx: bf vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c0
+in cmp 0
+vm.cx: c0 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: c0 s[cx] = c0
+in inc cx
+vm.cx: c0 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c1
+in cmp 0
+vm.cx: c1 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: c1 s[cx] = c1
+in inc cx
+vm.cx: c1 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c2
+in cmp 0
+vm.cx: c2 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: c2 s[cx] = c2
+in inc cx
+vm.cx: c2 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c3
+in cmp 0
+vm.cx: c3 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: c3 s[cx] = c3
+in inc cx
+vm.cx: c3 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c4
+in cmp 0
+vm.cx: c4 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: c4 s[cx] = c4
+in inc cx
+vm.cx: c4 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c5
+in cmp 0
+vm.cx: c5 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: c5 s[cx] = c5
+in inc cx
+vm.cx: c5 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c6
+in cmp 0
+vm.cx: c6 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: c6 s[cx] = c6
+in inc cx
+vm.cx: c6 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c7
+in cmp 0
+vm.cx: c7 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: c7 s[cx] = c7
+in inc cx
+vm.cx: c7 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c8
+in cmp 0
+vm.cx: c8 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: c8 s[cx] = c8
+in inc cx
+vm.cx: c8 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c9
+in cmp 0
+vm.cx: c9 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: c9 s[cx] = c9
+in inc cx
+vm.cx: c9 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ca
+in cmp 0
+vm.cx: ca regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: ca s[cx] = ca
+in inc cx
+vm.cx: ca vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: cb
+in cmp 0
+vm.cx: cb regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: cb s[cx] = cb
+in inc cx
+vm.cx: cb vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: cc
+in cmp 0
+vm.cx: cc regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: cc s[cx] = cc
+in inc cx
+vm.cx: cc vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: cd
+in cmp 0
+vm.cx: cd regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: cd s[cx] = cd
+in inc cx
+vm.cx: cd vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ce
+in cmp 0
+vm.cx: ce regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: ce s[cx] = ce
+in inc cx
+vm.cx: ce vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: cf
+in cmp 0
+vm.cx: cf regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: cf s[cx] = cf
+in inc cx
+vm.cx: cf vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d0
+in cmp 0
+vm.cx: d0 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: d0 s[cx] = d0
+in inc cx
+vm.cx: d0 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d1
+in cmp 0
+vm.cx: d1 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: d1 s[cx] = d1
+in inc cx
+vm.cx: d1 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d2
+in cmp 0
+vm.cx: d2 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: d2 s[cx] = d2
+in inc cx
+vm.cx: d2 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d3
+in cmp 0
+vm.cx: d3 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: d3 s[cx] = d3
+in inc cx
+vm.cx: d3 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d4
+in cmp 0
+vm.cx: d4 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: d4 s[cx] = d4
+in inc cx
+vm.cx: d4 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d5
+in cmp 0
+vm.cx: d5 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: d5 s[cx] = d5
+in inc cx
+vm.cx: d5 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d6
+in cmp 0
+vm.cx: d6 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: d6 s[cx] = d6
+in inc cx
+vm.cx: d6 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d7
+in cmp 0
+vm.cx: d7 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: d7 s[cx] = d7
+in inc cx
+vm.cx: d7 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d8
+in cmp 0
+vm.cx: d8 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: d8 s[cx] = d8
+in inc cx
+vm.cx: d8 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d9
+in cmp 0
+vm.cx: d9 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: d9 s[cx] = d9
+in inc cx
+vm.cx: d9 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: da
+in cmp 0
+vm.cx: da regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: da s[cx] = da
+in inc cx
+vm.cx: da vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: db
+in cmp 0
+vm.cx: db regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: db s[cx] = db
+in inc cx
+vm.cx: db vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: dc
+in cmp 0
+vm.cx: dc regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: dc s[cx] = dc
+in inc cx
+vm.cx: dc vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: dd
+in cmp 0
+vm.cx: dd regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: dd s[cx] = dd
+in inc cx
+vm.cx: dd vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: de
+in cmp 0
+vm.cx: de regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: de s[cx] = de
+in inc cx
+vm.cx: de vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: df
+in cmp 0
+vm.cx: df regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: df s[cx] = df
+in inc cx
+vm.cx: df vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e0
+in cmp 0
+vm.cx: e0 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: e0 s[cx] = e0
+in inc cx
+vm.cx: e0 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e1
+in cmp 0
+vm.cx: e1 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: e1 s[cx] = e1
+in inc cx
+vm.cx: e1 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e2
+in cmp 0
+vm.cx: e2 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: e2 s[cx] = e2
+in inc cx
+vm.cx: e2 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e3
+in cmp 0
+vm.cx: e3 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: e3 s[cx] = e3
+in inc cx
+vm.cx: e3 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e4
+in cmp 0
+vm.cx: e4 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: e4 s[cx] = e4
+in inc cx
+vm.cx: e4 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e5
+in cmp 0
+vm.cx: e5 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: e5 s[cx] = e5
+in inc cx
+vm.cx: e5 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e6
+in cmp 0
+vm.cx: e6 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: e6 s[cx] = e6
+in inc cx
+vm.cx: e6 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e7
+in cmp 0
+vm.cx: e7 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: e7 s[cx] = e7
+in inc cx
+vm.cx: e7 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e8
+in cmp 0
+vm.cx: e8 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: e8 s[cx] = e8
+in inc cx
+vm.cx: e8 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e9
+in cmp 0
+vm.cx: e9 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: e9 s[cx] = e9
+in inc cx
+vm.cx: e9 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ea
+in cmp 0
+vm.cx: ea regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: ea s[cx] = ea
+in inc cx
+vm.cx: ea vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: eb
+in cmp 0
+vm.cx: eb regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: eb s[cx] = eb
+in inc cx
+vm.cx: eb vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ec
+in cmp 0
+vm.cx: ec regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: ec s[cx] = ec
+in inc cx
+vm.cx: ec vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ed
+in cmp 0
+vm.cx: ed regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: ed s[cx] = ed
+in inc cx
+vm.cx: ed vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ee
+in cmp 0
+vm.cx: ee regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: ee s[cx] = ee
+in inc cx
+vm.cx: ee vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ef
+in cmp 0
+vm.cx: ef regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: ef s[cx] = ef
+in inc cx
+vm.cx: ef vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f0
+in cmp 0
+vm.cx: f0 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: f0 s[cx] = f0
+in inc cx
+vm.cx: f0 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f1
+in cmp 0
+vm.cx: f1 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: f1 s[cx] = f1
+in inc cx
+vm.cx: f1 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f2
+in cmp 0
+vm.cx: f2 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: f2 s[cx] = f2
+in inc cx
+vm.cx: f2 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f3
+in cmp 0
+vm.cx: f3 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: f3 s[cx] = f3
+in inc cx
+vm.cx: f3 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f4
+in cmp 0
+vm.cx: f4 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: f4 s[cx] = f4
+in inc cx
+vm.cx: f4 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f5
+in cmp 0
+vm.cx: f5 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: f5 s[cx] = f5
+in inc cx
+vm.cx: f5 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f6
+in cmp 0
+vm.cx: f6 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: f6 s[cx] = f6
+in inc cx
+vm.cx: f6 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f7
+in cmp 0
+vm.cx: f7 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: f7 s[cx] = f7
+in inc cx
+vm.cx: f7 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f8
+in cmp 0
+vm.cx: f8 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: f8 s[cx] = f8
+in inc cx
+vm.cx: f8 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f9
+in cmp 0
+vm.cx: f9 regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: f9 s[cx] = f9
+in inc cx
+vm.cx: f9 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: fa
+in cmp 0
+vm.cx: fa regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: fa s[cx] = fa
+in inc cx
+vm.cx: fa vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: fb
+in cmp 0
+vm.cx: fb regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: fb s[cx] = fb
+in inc cx
+vm.cx: fb vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: fc
+in cmp 0
+vm.cx: fc regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: fc s[cx] = fc
+in inc cx
+vm.cx: fc vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: fd
+in cmp 0
+vm.cx: fd regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: fd s[cx] = fd
+in inc cx
+vm.cx: fd vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: fe
+in cmp 0
+vm.cx: fe regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: fe s[cx] = fe
+in inc cx
+vm.cx: fe vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ff
+in cmp 0
+vm.cx: ff regs.rsi: 100
+jmp to d
+in mov
+mov s[cx], cx  cx: ff s[cx] = ff
+in inc cx
+vm.cx: ff vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 100
+in cmp 0
+vm.cx: 100 regs.rsi: 100
+jne failed 16
+in reset cx
+reg_addr: 72206e69 reg_val: 0
+in reset bx
+reg_addr: 72206e69 reg_val: 0
+in mov
+mov ax, cx  ax: 0
+in inc cx
+vm.cx: 0 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1
+in cmp 0
+vm.cx: 1 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 1
+in inc cx
+vm.cx: 1 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 2
+in cmp 0
+vm.cx: 2 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 2
+in inc cx
+vm.cx: 2 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 3
+in cmp 0
+vm.cx: 3 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 3
+in inc cx
+vm.cx: 3 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 4
+in cmp 0
+vm.cx: 4 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 4
+in inc cx
+vm.cx: 4 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 5
+in cmp 0
+vm.cx: 5 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 5
+in inc cx
+vm.cx: 5 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 6
+in cmp 0
+vm.cx: 6 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 6
+in inc cx
+vm.cx: 6 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 7
+in cmp 0
+vm.cx: 7 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 7
+in inc cx
+vm.cx: 7 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 8
+in cmp 0
+vm.cx: 8 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 8
+in inc cx
+vm.cx: 8 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 9
+in cmp 0
+vm.cx: 9 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 9
+in inc cx
+vm.cx: 9 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a
+in cmp 0
+vm.cx: a regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: a
+in inc cx
+vm.cx: a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b
+in cmp 0
+vm.cx: b regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: b
+in inc cx
+vm.cx: b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c
+in cmp 0
+vm.cx: c regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: c
+in inc cx
+vm.cx: c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d
+in cmp 0
+vm.cx: d regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: d
+in inc cx
+vm.cx: d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e
+in cmp 0
+vm.cx: e regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: e
+in inc cx
+vm.cx: e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f
+in cmp 0
+vm.cx: f regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: f
+in inc cx
+vm.cx: f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 10
+in cmp 0
+vm.cx: 10 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 10
+in inc cx
+vm.cx: 10 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 11
+in cmp 0
+vm.cx: 11 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 11
+in inc cx
+vm.cx: 11 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 12
+in cmp 0
+vm.cx: 12 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 12
+in inc cx
+vm.cx: 12 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 13
+in cmp 0
+vm.cx: 13 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 13
+in inc cx
+vm.cx: 13 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 14
+in cmp 0
+vm.cx: 14 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 14
+in inc cx
+vm.cx: 14 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 15
+in cmp 0
+vm.cx: 15 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 15
+in inc cx
+vm.cx: 15 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 16
+in cmp 0
+vm.cx: 16 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 16
+in inc cx
+vm.cx: 16 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 17
+in cmp 0
+vm.cx: 17 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 17
+in inc cx
+vm.cx: 17 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 18
+in cmp 0
+vm.cx: 18 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 18
+in inc cx
+vm.cx: 18 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 19
+in cmp 0
+vm.cx: 19 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 19
+in inc cx
+vm.cx: 19 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1a
+in cmp 0
+vm.cx: 1a regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 1a
+in inc cx
+vm.cx: 1a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1b
+in cmp 0
+vm.cx: 1b regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 1b
+in inc cx
+vm.cx: 1b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1c
+in cmp 0
+vm.cx: 1c regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 1c
+in inc cx
+vm.cx: 1c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1d
+in cmp 0
+vm.cx: 1d regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 1d
+in inc cx
+vm.cx: 1d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1e
+in cmp 0
+vm.cx: 1e regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 1e
+in inc cx
+vm.cx: 1e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1f
+in cmp 0
+vm.cx: 1f regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 1f
+in inc cx
+vm.cx: 1f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 20
+in cmp 0
+vm.cx: 20 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 20
+in inc cx
+vm.cx: 20 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 21
+in cmp 0
+vm.cx: 21 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 21
+in inc cx
+vm.cx: 21 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 22
+in cmp 0
+vm.cx: 22 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 22
+in inc cx
+vm.cx: 22 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 23
+in cmp 0
+vm.cx: 23 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 23
+in inc cx
+vm.cx: 23 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 24
+in cmp 0
+vm.cx: 24 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 24
+in inc cx
+vm.cx: 24 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 25
+in cmp 0
+vm.cx: 25 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 25
+in inc cx
+vm.cx: 25 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 26
+in cmp 0
+vm.cx: 26 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 26
+in inc cx
+vm.cx: 26 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 27
+in cmp 0
+vm.cx: 27 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 27
+in inc cx
+vm.cx: 27 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 28
+in cmp 0
+vm.cx: 28 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 28
+in inc cx
+vm.cx: 28 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 29
+in cmp 0
+vm.cx: 29 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 29
+in inc cx
+vm.cx: 29 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 2a
+in cmp 0
+vm.cx: 2a regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 2a
+in inc cx
+vm.cx: 2a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 2b
+in cmp 0
+vm.cx: 2b regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 2b
+in inc cx
+vm.cx: 2b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 2c
+in cmp 0
+vm.cx: 2c regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 2c
+in inc cx
+vm.cx: 2c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 2d
+in cmp 0
+vm.cx: 2d regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 2d
+in inc cx
+vm.cx: 2d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 2e
+in cmp 0
+vm.cx: 2e regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 2e
+in inc cx
+vm.cx: 2e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 2f
+in cmp 0
+vm.cx: 2f regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 2f
+in inc cx
+vm.cx: 2f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 30
+in cmp 0
+vm.cx: 30 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 30
+in inc cx
+vm.cx: 30 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 31
+in cmp 0
+vm.cx: 31 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 31
+in inc cx
+vm.cx: 31 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 32
+in cmp 0
+vm.cx: 32 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 32
+in inc cx
+vm.cx: 32 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 33
+in cmp 0
+vm.cx: 33 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 33
+in inc cx
+vm.cx: 33 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 34
+in cmp 0
+vm.cx: 34 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 34
+in inc cx
+vm.cx: 34 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 35
+in cmp 0
+vm.cx: 35 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 35
+in inc cx
+vm.cx: 35 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 36
+in cmp 0
+vm.cx: 36 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 36
+in inc cx
+vm.cx: 36 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 37
+in cmp 0
+vm.cx: 37 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 37
+in inc cx
+vm.cx: 37 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 38
+in cmp 0
+vm.cx: 38 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 38
+in inc cx
+vm.cx: 38 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 39
+in cmp 0
+vm.cx: 39 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 39
+in inc cx
+vm.cx: 39 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 3a
+in cmp 0
+vm.cx: 3a regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 3a
+in inc cx
+vm.cx: 3a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 3b
+in cmp 0
+vm.cx: 3b regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 3b
+in inc cx
+vm.cx: 3b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 3c
+in cmp 0
+vm.cx: 3c regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 3c
+in inc cx
+vm.cx: 3c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 3d
+in cmp 0
+vm.cx: 3d regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 3d
+in inc cx
+vm.cx: 3d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 3e
+in cmp 0
+vm.cx: 3e regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 3e
+in inc cx
+vm.cx: 3e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 3f
+in cmp 0
+vm.cx: 3f regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 3f
+in inc cx
+vm.cx: 3f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 40
+in cmp 0
+vm.cx: 40 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 40
+in inc cx
+vm.cx: 40 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 41
+in cmp 0
+vm.cx: 41 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 41
+in inc cx
+vm.cx: 41 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 42
+in cmp 0
+vm.cx: 42 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 42
+in inc cx
+vm.cx: 42 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 43
+in cmp 0
+vm.cx: 43 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 43
+in inc cx
+vm.cx: 43 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 44
+in cmp 0
+vm.cx: 44 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 44
+in inc cx
+vm.cx: 44 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 45
+in cmp 0
+vm.cx: 45 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 45
+in inc cx
+vm.cx: 45 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 46
+in cmp 0
+vm.cx: 46 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 46
+in inc cx
+vm.cx: 46 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 47
+in cmp 0
+vm.cx: 47 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 47
+in inc cx
+vm.cx: 47 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 48
+in cmp 0
+vm.cx: 48 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 48
+in inc cx
+vm.cx: 48 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 49
+in cmp 0
+vm.cx: 49 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 49
+in inc cx
+vm.cx: 49 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 4a
+in cmp 0
+vm.cx: 4a regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 4a
+in inc cx
+vm.cx: 4a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 4b
+in cmp 0
+vm.cx: 4b regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 4b
+in inc cx
+vm.cx: 4b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 4c
+in cmp 0
+vm.cx: 4c regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 4c
+in inc cx
+vm.cx: 4c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 4d
+in cmp 0
+vm.cx: 4d regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 4d
+in inc cx
+vm.cx: 4d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 4e
+in cmp 0
+vm.cx: 4e regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 4e
+in inc cx
+vm.cx: 4e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 4f
+in cmp 0
+vm.cx: 4f regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 4f
+in inc cx
+vm.cx: 4f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 50
+in cmp 0
+vm.cx: 50 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 50
+in inc cx
+vm.cx: 50 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 51
+in cmp 0
+vm.cx: 51 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 51
+in inc cx
+vm.cx: 51 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 52
+in cmp 0
+vm.cx: 52 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 52
+in inc cx
+vm.cx: 52 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 53
+in cmp 0
+vm.cx: 53 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 53
+in inc cx
+vm.cx: 53 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 54
+in cmp 0
+vm.cx: 54 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 54
+in inc cx
+vm.cx: 54 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 55
+in cmp 0
+vm.cx: 55 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 55
+in inc cx
+vm.cx: 55 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 56
+in cmp 0
+vm.cx: 56 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 56
+in inc cx
+vm.cx: 56 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 57
+in cmp 0
+vm.cx: 57 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 57
+in inc cx
+vm.cx: 57 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 58
+in cmp 0
+vm.cx: 58 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 58
+in inc cx
+vm.cx: 58 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 59
+in cmp 0
+vm.cx: 59 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 59
+in inc cx
+vm.cx: 59 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 5a
+in cmp 0
+vm.cx: 5a regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 5a
+in inc cx
+vm.cx: 5a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 5b
+in cmp 0
+vm.cx: 5b regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 5b
+in inc cx
+vm.cx: 5b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 5c
+in cmp 0
+vm.cx: 5c regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 5c
+in inc cx
+vm.cx: 5c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 5d
+in cmp 0
+vm.cx: 5d regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 5d
+in inc cx
+vm.cx: 5d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 5e
+in cmp 0
+vm.cx: 5e regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 5e
+in inc cx
+vm.cx: 5e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 5f
+in cmp 0
+vm.cx: 5f regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 5f
+in inc cx
+vm.cx: 5f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 60
+in cmp 0
+vm.cx: 60 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 60
+in inc cx
+vm.cx: 60 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 61
+in cmp 0
+vm.cx: 61 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 61
+in inc cx
+vm.cx: 61 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 62
+in cmp 0
+vm.cx: 62 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 62
+in inc cx
+vm.cx: 62 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 63
+in cmp 0
+vm.cx: 63 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 63
+in inc cx
+vm.cx: 63 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 64
+in cmp 0
+vm.cx: 64 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 64
+in inc cx
+vm.cx: 64 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 65
+in cmp 0
+vm.cx: 65 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 65
+in inc cx
+vm.cx: 65 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 66
+in cmp 0
+vm.cx: 66 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 66
+in inc cx
+vm.cx: 66 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 67
+in cmp 0
+vm.cx: 67 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 67
+in inc cx
+vm.cx: 67 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 68
+in cmp 0
+vm.cx: 68 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 68
+in inc cx
+vm.cx: 68 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 69
+in cmp 0
+vm.cx: 69 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 69
+in inc cx
+vm.cx: 69 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 6a
+in cmp 0
+vm.cx: 6a regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 6a
+in inc cx
+vm.cx: 6a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 6b
+in cmp 0
+vm.cx: 6b regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 6b
+in inc cx
+vm.cx: 6b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 6c
+in cmp 0
+vm.cx: 6c regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 6c
+in inc cx
+vm.cx: 6c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 6d
+in cmp 0
+vm.cx: 6d regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 6d
+in inc cx
+vm.cx: 6d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 6e
+in cmp 0
+vm.cx: 6e regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 6e
+in inc cx
+vm.cx: 6e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 6f
+in cmp 0
+vm.cx: 6f regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 6f
+in inc cx
+vm.cx: 6f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 70
+in cmp 0
+vm.cx: 70 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 70
+in inc cx
+vm.cx: 70 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 71
+in cmp 0
+vm.cx: 71 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 71
+in inc cx
+vm.cx: 71 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 72
+in cmp 0
+vm.cx: 72 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 72
+in inc cx
+vm.cx: 72 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 73
+in cmp 0
+vm.cx: 73 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 73
+in inc cx
+vm.cx: 73 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 74
+in cmp 0
+vm.cx: 74 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 74
+in inc cx
+vm.cx: 74 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 75
+in cmp 0
+vm.cx: 75 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 75
+in inc cx
+vm.cx: 75 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 76
+in cmp 0
+vm.cx: 76 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 76
+in inc cx
+vm.cx: 76 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 77
+in cmp 0
+vm.cx: 77 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 77
+in inc cx
+vm.cx: 77 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 78
+in cmp 0
+vm.cx: 78 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 78
+in inc cx
+vm.cx: 78 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 79
+in cmp 0
+vm.cx: 79 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 79
+in inc cx
+vm.cx: 79 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 7a
+in cmp 0
+vm.cx: 7a regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 7a
+in inc cx
+vm.cx: 7a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 7b
+in cmp 0
+vm.cx: 7b regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 7b
+in inc cx
+vm.cx: 7b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 7c
+in cmp 0
+vm.cx: 7c regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 7c
+in inc cx
+vm.cx: 7c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 7d
+in cmp 0
+vm.cx: 7d regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 7d
+in inc cx
+vm.cx: 7d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 7e
+in cmp 0
+vm.cx: 7e regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 7e
+in inc cx
+vm.cx: 7e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 7f
+in cmp 0
+vm.cx: 7f regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 7f
+in inc cx
+vm.cx: 7f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 80
+in cmp 0
+vm.cx: 80 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 80
+in inc cx
+vm.cx: 80 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 81
+in cmp 0
+vm.cx: 81 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 81
+in inc cx
+vm.cx: 81 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 82
+in cmp 0
+vm.cx: 82 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 82
+in inc cx
+vm.cx: 82 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 83
+in cmp 0
+vm.cx: 83 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 83
+in inc cx
+vm.cx: 83 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 84
+in cmp 0
+vm.cx: 84 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 84
+in inc cx
+vm.cx: 84 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 85
+in cmp 0
+vm.cx: 85 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 85
+in inc cx
+vm.cx: 85 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 86
+in cmp 0
+vm.cx: 86 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 86
+in inc cx
+vm.cx: 86 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 87
+in cmp 0
+vm.cx: 87 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 87
+in inc cx
+vm.cx: 87 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 88
+in cmp 0
+vm.cx: 88 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 88
+in inc cx
+vm.cx: 88 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 89
+in cmp 0
+vm.cx: 89 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 89
+in inc cx
+vm.cx: 89 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 8a
+in cmp 0
+vm.cx: 8a regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 8a
+in inc cx
+vm.cx: 8a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 8b
+in cmp 0
+vm.cx: 8b regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 8b
+in inc cx
+vm.cx: 8b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 8c
+in cmp 0
+vm.cx: 8c regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 8c
+in inc cx
+vm.cx: 8c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 8d
+in cmp 0
+vm.cx: 8d regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 8d
+in inc cx
+vm.cx: 8d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 8e
+in cmp 0
+vm.cx: 8e regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 8e
+in inc cx
+vm.cx: 8e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 8f
+in cmp 0
+vm.cx: 8f regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 8f
+in inc cx
+vm.cx: 8f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 90
+in cmp 0
+vm.cx: 90 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 90
+in inc cx
+vm.cx: 90 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 91
+in cmp 0
+vm.cx: 91 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 91
+in inc cx
+vm.cx: 91 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 92
+in cmp 0
+vm.cx: 92 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 92
+in inc cx
+vm.cx: 92 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 93
+in cmp 0
+vm.cx: 93 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 93
+in inc cx
+vm.cx: 93 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 94
+in cmp 0
+vm.cx: 94 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 94
+in inc cx
+vm.cx: 94 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 95
+in cmp 0
+vm.cx: 95 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 95
+in inc cx
+vm.cx: 95 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 96
+in cmp 0
+vm.cx: 96 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 96
+in inc cx
+vm.cx: 96 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 97
+in cmp 0
+vm.cx: 97 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 97
+in inc cx
+vm.cx: 97 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 98
+in cmp 0
+vm.cx: 98 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 98
+in inc cx
+vm.cx: 98 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 99
+in cmp 0
+vm.cx: 99 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 99
+in inc cx
+vm.cx: 99 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 9a
+in cmp 0
+vm.cx: 9a regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 9a
+in inc cx
+vm.cx: 9a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 9b
+in cmp 0
+vm.cx: 9b regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 9b
+in inc cx
+vm.cx: 9b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 9c
+in cmp 0
+vm.cx: 9c regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 9c
+in inc cx
+vm.cx: 9c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 9d
+in cmp 0
+vm.cx: 9d regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 9d
+in inc cx
+vm.cx: 9d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 9e
+in cmp 0
+vm.cx: 9e regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 9e
+in inc cx
+vm.cx: 9e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 9f
+in cmp 0
+vm.cx: 9f regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: 9f
+in inc cx
+vm.cx: 9f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a0
+in cmp 0
+vm.cx: a0 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: a0
+in inc cx
+vm.cx: a0 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a1
+in cmp 0
+vm.cx: a1 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: a1
+in inc cx
+vm.cx: a1 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a2
+in cmp 0
+vm.cx: a2 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: a2
+in inc cx
+vm.cx: a2 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a3
+in cmp 0
+vm.cx: a3 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: a3
+in inc cx
+vm.cx: a3 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a4
+in cmp 0
+vm.cx: a4 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: a4
+in inc cx
+vm.cx: a4 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a5
+in cmp 0
+vm.cx: a5 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: a5
+in inc cx
+vm.cx: a5 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a6
+in cmp 0
+vm.cx: a6 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: a6
+in inc cx
+vm.cx: a6 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a7
+in cmp 0
+vm.cx: a7 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: a7
+in inc cx
+vm.cx: a7 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a8
+in cmp 0
+vm.cx: a8 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: a8
+in inc cx
+vm.cx: a8 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a9
+in cmp 0
+vm.cx: a9 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: a9
+in inc cx
+vm.cx: a9 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: aa
+in cmp 0
+vm.cx: aa regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: aa
+in inc cx
+vm.cx: aa vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ab
+in cmp 0
+vm.cx: ab regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: ab
+in inc cx
+vm.cx: ab vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ac
+in cmp 0
+vm.cx: ac regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: ac
+in inc cx
+vm.cx: ac vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ad
+in cmp 0
+vm.cx: ad regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: ad
+in inc cx
+vm.cx: ad vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ae
+in cmp 0
+vm.cx: ae regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: ae
+in inc cx
+vm.cx: ae vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: af
+in cmp 0
+vm.cx: af regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: af
+in inc cx
+vm.cx: af vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b0
+in cmp 0
+vm.cx: b0 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: b0
+in inc cx
+vm.cx: b0 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b1
+in cmp 0
+vm.cx: b1 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: b1
+in inc cx
+vm.cx: b1 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b2
+in cmp 0
+vm.cx: b2 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: b2
+in inc cx
+vm.cx: b2 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b3
+in cmp 0
+vm.cx: b3 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: b3
+in inc cx
+vm.cx: b3 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b4
+in cmp 0
+vm.cx: b4 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: b4
+in inc cx
+vm.cx: b4 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b5
+in cmp 0
+vm.cx: b5 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: b5
+in inc cx
+vm.cx: b5 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b6
+in cmp 0
+vm.cx: b6 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: b6
+in inc cx
+vm.cx: b6 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b7
+in cmp 0
+vm.cx: b7 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: b7
+in inc cx
+vm.cx: b7 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b8
+in cmp 0
+vm.cx: b8 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: b8
+in inc cx
+vm.cx: b8 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b9
+in cmp 0
+vm.cx: b9 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: b9
+in inc cx
+vm.cx: b9 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ba
+in cmp 0
+vm.cx: ba regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: ba
+in inc cx
+vm.cx: ba vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: bb
+in cmp 0
+vm.cx: bb regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: bb
+in inc cx
+vm.cx: bb vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: bc
+in cmp 0
+vm.cx: bc regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: bc
+in inc cx
+vm.cx: bc vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: bd
+in cmp 0
+vm.cx: bd regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: bd
+in inc cx
+vm.cx: bd vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: be
+in cmp 0
+vm.cx: be regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: be
+in inc cx
+vm.cx: be vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: bf
+in cmp 0
+vm.cx: bf regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: bf
+in inc cx
+vm.cx: bf vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c0
+in cmp 0
+vm.cx: c0 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: c0
+in inc cx
+vm.cx: c0 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c1
+in cmp 0
+vm.cx: c1 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: c1
+in inc cx
+vm.cx: c1 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c2
+in cmp 0
+vm.cx: c2 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: c2
+in inc cx
+vm.cx: c2 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c3
+in cmp 0
+vm.cx: c3 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: c3
+in inc cx
+vm.cx: c3 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c4
+in cmp 0
+vm.cx: c4 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: c4
+in inc cx
+vm.cx: c4 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c5
+in cmp 0
+vm.cx: c5 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: c5
+in inc cx
+vm.cx: c5 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c6
+in cmp 0
+vm.cx: c6 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: c6
+in inc cx
+vm.cx: c6 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c7
+in cmp 0
+vm.cx: c7 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: c7
+in inc cx
+vm.cx: c7 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c8
+in cmp 0
+vm.cx: c8 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: c8
+in inc cx
+vm.cx: c8 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c9
+in cmp 0
+vm.cx: c9 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: c9
+in inc cx
+vm.cx: c9 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ca
+in cmp 0
+vm.cx: ca regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: ca
+in inc cx
+vm.cx: ca vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: cb
+in cmp 0
+vm.cx: cb regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: cb
+in inc cx
+vm.cx: cb vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: cc
+in cmp 0
+vm.cx: cc regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: cc
+in inc cx
+vm.cx: cc vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: cd
+in cmp 0
+vm.cx: cd regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: cd
+in inc cx
+vm.cx: cd vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ce
+in cmp 0
+vm.cx: ce regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: ce
+in inc cx
+vm.cx: ce vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: cf
+in cmp 0
+vm.cx: cf regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: cf
+in inc cx
+vm.cx: cf vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d0
+in cmp 0
+vm.cx: d0 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: d0
+in inc cx
+vm.cx: d0 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d1
+in cmp 0
+vm.cx: d1 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: d1
+in inc cx
+vm.cx: d1 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d2
+in cmp 0
+vm.cx: d2 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: d2
+in inc cx
+vm.cx: d2 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d3
+in cmp 0
+vm.cx: d3 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: d3
+in inc cx
+vm.cx: d3 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d4
+in cmp 0
+vm.cx: d4 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: d4
+in inc cx
+vm.cx: d4 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d5
+in cmp 0
+vm.cx: d5 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: d5
+in inc cx
+vm.cx: d5 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d6
+in cmp 0
+vm.cx: d6 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: d6
+in inc cx
+vm.cx: d6 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d7
+in cmp 0
+vm.cx: d7 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: d7
+in inc cx
+vm.cx: d7 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d8
+in cmp 0
+vm.cx: d8 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: d8
+in inc cx
+vm.cx: d8 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d9
+in cmp 0
+vm.cx: d9 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: d9
+in inc cx
+vm.cx: d9 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: da
+in cmp 0
+vm.cx: da regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: da
+in inc cx
+vm.cx: da vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: db
+in cmp 0
+vm.cx: db regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: db
+in inc cx
+vm.cx: db vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: dc
+in cmp 0
+vm.cx: dc regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: dc
+in inc cx
+vm.cx: dc vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: dd
+in cmp 0
+vm.cx: dd regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: dd
+in inc cx
+vm.cx: dd vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: de
+in cmp 0
+vm.cx: de regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: de
+in inc cx
+vm.cx: de vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: df
+in cmp 0
+vm.cx: df regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: df
+in inc cx
+vm.cx: df vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e0
+in cmp 0
+vm.cx: e0 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: e0
+in inc cx
+vm.cx: e0 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e1
+in cmp 0
+vm.cx: e1 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: e1
+in inc cx
+vm.cx: e1 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e2
+in cmp 0
+vm.cx: e2 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: e2
+in inc cx
+vm.cx: e2 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e3
+in cmp 0
+vm.cx: e3 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: e3
+in inc cx
+vm.cx: e3 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e4
+in cmp 0
+vm.cx: e4 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: e4
+in inc cx
+vm.cx: e4 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e5
+in cmp 0
+vm.cx: e5 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: e5
+in inc cx
+vm.cx: e5 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e6
+in cmp 0
+vm.cx: e6 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: e6
+in inc cx
+vm.cx: e6 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e7
+in cmp 0
+vm.cx: e7 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: e7
+in inc cx
+vm.cx: e7 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e8
+in cmp 0
+vm.cx: e8 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: e8
+in inc cx
+vm.cx: e8 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e9
+in cmp 0
+vm.cx: e9 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: e9
+in inc cx
+vm.cx: e9 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ea
+in cmp 0
+vm.cx: ea regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: ea
+in inc cx
+vm.cx: ea vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: eb
+in cmp 0
+vm.cx: eb regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: eb
+in inc cx
+vm.cx: eb vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ec
+in cmp 0
+vm.cx: ec regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: ec
+in inc cx
+vm.cx: ec vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ed
+in cmp 0
+vm.cx: ed regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: ed
+in inc cx
+vm.cx: ed vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ee
+in cmp 0
+vm.cx: ee regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: ee
+in inc cx
+vm.cx: ee vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ef
+in cmp 0
+vm.cx: ef regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: ef
+in inc cx
+vm.cx: ef vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f0
+in cmp 0
+vm.cx: f0 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: f0
+in inc cx
+vm.cx: f0 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f1
+in cmp 0
+vm.cx: f1 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: f1
+in inc cx
+vm.cx: f1 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f2
+in cmp 0
+vm.cx: f2 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: f2
+in inc cx
+vm.cx: f2 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f3
+in cmp 0
+vm.cx: f3 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: f3
+in inc cx
+vm.cx: f3 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f4
+in cmp 0
+vm.cx: f4 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: f4
+in inc cx
+vm.cx: f4 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f5
+in cmp 0
+vm.cx: f5 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: f5
+in inc cx
+vm.cx: f5 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f6
+in cmp 0
+vm.cx: f6 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: f6
+in inc cx
+vm.cx: f6 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f7
+in cmp 0
+vm.cx: f7 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: f7
+in inc cx
+vm.cx: f7 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f8
+in cmp 0
+vm.cx: f8 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: f8
+in inc cx
+vm.cx: f8 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f9
+in cmp 0
+vm.cx: f9 regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: f9
+in inc cx
+vm.cx: f9 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: fa
+in cmp 0
+vm.cx: fa regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: fa
+in inc cx
+vm.cx: fa vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: fb
+in cmp 0
+vm.cx: fb regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: fb
+in inc cx
+vm.cx: fb vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: fc
+in cmp 0
+vm.cx: fc regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: fc
+in inc cx
+vm.cx: fc vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: fd
+in cmp 0
+vm.cx: fd regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: fd
+in inc cx
+vm.cx: fd vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: fe
+in cmp 0
+vm.cx: fe regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: fe
+in inc cx
+vm.cx: fe vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: ff
+in cmp 0
+vm.cx: ff regs.rsi: 100
+jmp to 1a
+in mov
+mov ax, cx  ax: ff
+in inc cx
+vm.cx: ff vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 100
+in cmp 0
+vm.cx: 100 regs.rsi: 100
+jne failed 32
+in reset cx
+reg_addr: 72206e69 reg_val: 0
+in reset bx
+reg_addr: 72206e69 reg_val: 0
+in inc cx
+vm.cx: 0 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1
+in mov
+mov ax, s[cx]  cx: 1 ax: 1c
+in mov
+in pop
+vm.dx: 6c
+in xor
+vm.dx: e1 vm.ax: 8d
+in mov
+mov ax enc[cx-1]  ax: e1
+s start
+201 28 39 91 227 43 9 200 166 92 129 224 25 199 133 126 218 46 148 237 113 80 41 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 68 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 71 103 242 95 209 33 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 252 17 197 11 184 154 73 177 203 176 172 234 159 187 226 214 192 110 75 90 174 246 53 82 10 108 216 23 50 22 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 131 59 231 179 128 30 16 248 7 236 249 175 122 0 69 239 180 217 208 6 15 228 121 83 77 29 210 54 205 219 20 88 153 150 101 212 140 27 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 138 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 1 regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 1 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 2
+in mov
+mov ax, s[cx]  cx: 2 ax: 47
+in mov
+in pop
+vm.dx: 6c
+in xor
+vm.dx: 52 vm.ax: 3e
+in mov
+mov ax enc[cx-1]  ax: 52
+s start
+201 28 71 91 227 43 9 200 166 92 129 224 25 199 133 126 218 46 148 237 113 80 41 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 68 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 103 242 95 209 33 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 252 17 197 11 184 154 73 177 203 176 172 234 159 187 226 214 192 110 75 90 174 246 53 82 10 108 216 23 50 22 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 131 59 231 179 128 30 16 248 7 236 249 175 122 0 69 239 180 217 208 6 15 228 121 83 77 29 210 54 205 219 20 88 153 150 101 212 140 27 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 138 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 2 regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 2 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 3
+in mov
+mov ax, s[cx]  cx: 3 ax: 83
+in mov
+in pop
+vm.dx: 61
+in xor
+vm.dx: 95 vm.ax: f4
+in mov
+mov ax enc[cx-1]  ax: 95
+s start
+201 28 71 131 227 43 9 200 166 92 129 224 25 199 133 126 218 46 148 237 113 80 41 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 68 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 103 242 95 209 33 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 252 17 197 11 184 154 73 177 203 176 172 234 159 187 226 214 192 110 75 90 174 246 53 82 10 108 216 23 50 22 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 69 239 180 217 208 6 15 228 121 83 77 29 210 54 205 219 20 88 153 150 101 212 140 27 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 138 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 3 regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 3 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 4
+in mov
+mov ax, s[cx]  cx: 4 ax: 16
+in mov
+in pop
+vm.dx: 63
+in xor
+vm.dx: ad vm.ax: ce
+in mov
+mov ax enc[cx-1]  ax: ad
+s start
+201 28 71 131 22 43 9 200 166 92 129 224 25 199 133 126 218 46 148 237 113 80 41 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 68 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 103 242 95 209 33 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 252 17 197 11 184 154 73 177 203 176 172 234 159 187 226 214 192 110 75 90 174 246 53 82 10 108 216 23 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 69 239 180 217 208 6 15 228 121 83 77 29 210 54 205 219 20 88 153 150 101 212 140 27 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 138 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 4 regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 4 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 5
+in mov
+mov ax, s[cx]  cx: 5 ax: 45
+in mov
+in pop
+vm.dx: 24
+in xor
+vm.dx: e0 vm.ax: c4
+in mov
+mov ax enc[cx-1]  ax: e0
+s start
+201 28 71 131 22 69 9 200 166 92 129 224 25 199 133 126 218 46 148 237 113 80 41 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 68 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 103 242 95 209 33 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 252 17 197 11 184 154 73 177 203 176 172 234 159 187 226 214 192 110 75 90 174 246 53 82 10 108 216 23 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 121 83 77 29 210 54 205 219 20 88 153 150 101 212 140 27 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 138 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 5 regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 5 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 6
+in mov
+mov ax, s[cx]  cx: 6 ax: 53
+in mov
+in pop
+vm.dx: 79
+in xor
+vm.dx: d0 vm.ax: a9
+in mov
+mov ax enc[cx-1]  ax: d0
+s start
+201 28 71 131 22 69 83 200 166 92 129 224 25 199 133 126 218 46 148 237 113 80 41 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 68 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 103 242 95 209 33 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 252 17 197 11 184 154 73 177 203 176 172 234 159 187 226 214 192 110 75 90 174 246 53 82 10 108 216 23 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 121 9 77 29 210 54 205 219 20 88 153 150 101 212 140 27 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 138 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 6 regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 6 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 7
+in mov
+mov ax, s[cx]  cx: 7 ax: 6c
+in mov
+in pop
+vm.dx: 73
+in xor
+vm.dx: 13 vm.ax: 60
+in mov
+mov ax enc[cx-1]  ax: 13
+s start
+201 28 71 131 22 69 83 108 166 92 129 224 25 199 133 126 218 46 148 237 113 80 41 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 68 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 103 242 95 209 33 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 252 17 197 11 184 154 73 177 203 176 172 234 159 187 226 214 192 110 75 90 174 246 53 82 10 200 216 23 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 121 9 77 29 210 54 205 219 20 88 153 150 101 212 140 27 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 138 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 7 regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 7 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 8
+in mov
+mov ax, s[cx]  cx: 8 ax: 44
+in mov
+in pop
+vm.dx: 5f
+in xor
+vm.dx: 65 vm.ax: 3a
+in mov
+mov ax enc[cx-1]  ax: 65
+s start
+201 28 71 131 22 69 83 108 68 92 129 224 25 199 133 126 218 46 148 237 113 80 41 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 103 242 95 209 33 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 252 17 197 11 184 154 73 177 203 176 172 234 159 187 226 214 192 110 75 90 174 246 53 82 10 200 216 23 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 121 9 77 29 210 54 205 219 20 88 153 150 101 212 140 27 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 138 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 8 regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 8 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 9
+in mov
+mov ax, s[cx]  cx: 9 ax: 17
+in mov
+in pop
+vm.dx: 6c
+in xor
+vm.dx: 3d vm.ax: 51
+in mov
+mov ax enc[cx-1]  ax: 3d
+s start
+201 28 71 131 22 69 83 108 68 23 129 224 25 199 133 126 218 46 148 237 113 80 41 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 103 242 95 209 33 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 252 17 197 11 184 154 73 177 203 176 172 234 159 187 226 214 192 110 75 90 174 246 53 82 10 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 121 9 77 29 210 54 205 219 20 88 153 150 101 212 140 27 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 138 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 9 regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 9 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: a
+in mov
+mov ax, s[cx]  cx: a ax: da
+in mov
+in pop
+vm.dx: 61
+in xor
+vm.dx: 1a vm.ax: 7b
+in mov
+mov ax enc[cx-1]  ax: 1a
+s start
+201 28 71 131 22 69 83 108 68 23 218 224 25 199 133 126 129 46 148 237 113 80 41 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 103 242 95 209 33 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 252 17 197 11 184 154 73 177 203 176 172 234 159 187 226 214 192 110 75 90 174 246 53 82 10 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 121 9 77 29 210 54 205 219 20 88 153 150 101 212 140 27 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 138 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: a regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: b
+in mov
+mov ax, s[cx]  cx: b ax: 8a
+in mov
+in pop
+vm.dx: 63
+in xor
+vm.dx: 62 vm.ax: 1
+in mov
+mov ax enc[cx-1]  ax: 62
+s start
+201 28 71 131 22 69 83 108 68 23 218 138 25 199 133 126 129 46 148 237 113 80 41 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 103 242 95 209 33 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 252 17 197 11 184 154 73 177 203 176 172 234 159 187 226 214 192 110 75 90 174 246 53 82 10 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 121 9 77 29 210 54 205 219 20 88 153 150 101 212 140 27 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 224 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: b regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: c
+in mov
+mov ax, s[cx]  cx: c ax: 17
+in mov
+in pop
+vm.dx: 69
+in xor
+vm.dx: fe vm.ax: 97
+in mov
+mov ax enc[cx-1]  ax: fe
+s start
+201 28 71 131 22 69 83 108 68 25 218 138 23 199 133 126 129 46 148 237 113 80 41 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 103 242 95 209 33 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 252 17 197 11 184 154 73 177 203 176 172 234 159 187 226 214 192 110 75 90 174 246 53 82 10 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 121 9 77 29 210 54 205 219 20 88 153 150 101 212 140 27 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 224 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: c regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: d
+in mov
+mov ax, s[cx]  cx: d ax: 65
+in mov
+in pop
+vm.dx: 39
+in xor
+vm.dx: 15 vm.ax: 2c
+in mov
+mov ax enc[cx-1]  ax: 15
+s start
+201 28 71 131 22 69 83 108 68 25 218 138 23 101 133 126 129 46 148 237 113 80 41 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 103 242 95 209 33 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 252 17 197 11 184 154 73 177 203 176 172 234 159 187 226 214 192 110 75 90 174 246 53 82 10 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 121 9 77 29 210 54 205 219 20 88 153 150 199 212 140 27 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 224 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: d regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: e
+in mov
+mov ax, s[cx]  cx: e ax: f2
+in mov
+in pop
+vm.dx: 61
+in xor
+vm.dx: 6a vm.ax: b
+in mov
+mov ax enc[cx-1]  ax: 6a
+s start
+201 28 71 131 22 69 83 108 68 25 218 138 23 101 242 126 129 46 148 237 113 80 41 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 103 133 95 209 33 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 252 17 197 11 184 154 73 177 203 176 172 234 159 187 226 214 192 110 75 90 174 246 53 82 10 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 121 9 77 29 210 54 205 219 20 88 153 150 199 212 140 27 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 224 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: e regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: f
+in mov
+mov ax, s[cx]  cx: f ax: 1b
+in mov
+in pop
+vm.dx: 6d
+in xor
+vm.dx: 86 vm.ax: eb
+in mov
+mov ax enc[cx-1]  ax: 86
+s start
+201 28 71 131 22 69 83 108 68 25 218 138 23 101 242 27 129 46 148 237 113 80 41 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 103 133 95 209 33 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 252 17 197 11 184 154 73 177 203 176 172 234 159 187 226 214 192 110 75 90 174 246 53 82 10 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 121 9 77 29 210 54 205 219 20 88 153 150 199 212 140 126 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 224 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: f regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 10
+in mov
+mov ax, s[cx]  cx: 10 ax: 67
+in mov
+in pop
+vm.dx: 5f
+in xor
+vm.dx: 3c vm.ax: 63
+in mov
+mov ax enc[cx-1]  ax: 3c
+s start
+201 28 71 131 22 69 83 108 68 25 218 138 23 101 242 27 103 46 148 237 113 80 41 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 129 133 95 209 33 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 252 17 197 11 184 154 73 177 203 176 172 234 159 187 226 214 192 110 75 90 174 246 53 82 10 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 121 9 77 29 210 54 205 219 20 88 153 150 199 212 140 126 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 224 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 10 regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 10 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 11
+in mov
+mov ax, s[cx]  cx: 11 ax: e2
+in mov
+in pop
+vm.dx: 68
+in xor
+vm.dx: f vm.ax: 67
+in mov
+mov ax enc[cx-1]  ax: f
+s start
+201 28 71 131 22 69 83 108 68 25 218 138 23 101 242 27 103 226 148 237 113 80 41 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 129 133 95 209 33 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 252 17 197 11 184 154 73 177 203 176 172 234 159 187 46 214 192 110 75 90 174 246 53 82 10 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 121 9 77 29 210 54 205 219 20 88 153 150 199 212 140 126 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 224 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 11 regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 11 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 12
+in mov
+mov ax, s[cx]  cx: 12 ax: 29
+in mov
+in pop
+vm.dx: 74
+in xor
+vm.dx: 9b vm.ax: ef
+in mov
+mov ax enc[cx-1]  ax: 9b
+s start
+201 28 71 131 22 69 83 108 68 25 218 138 23 101 242 27 103 226 41 237 113 80 148 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 129 133 95 209 33 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 252 17 197 11 184 154 73 177 203 176 172 234 159 187 46 214 192 110 75 90 174 246 53 82 10 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 121 9 77 29 210 54 205 219 20 88 153 150 199 212 140 126 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 224 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 12 regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 12 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 13
+in mov
+mov ax, s[cx]  cx: 13 ax: 83
+in mov
+in pop
+vm.dx: 31
+in xor
+vm.dx: f5 vm.ax: c4
+in mov
+mov ax enc[cx-1]  ax: f5
+s start
+201 28 71 237 22 69 83 108 68 25 218 138 23 101 242 27 103 226 41 131 113 80 148 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 129 133 95 209 33 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 252 17 197 11 184 154 73 177 203 176 172 234 159 187 46 214 192 110 75 90 174 246 53 82 10 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 121 9 77 29 210 54 205 219 20 88 153 150 199 212 140 126 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 224 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 13 regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 13 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 14
+in mov
+mov ax, s[cx]  cx: 14 ax: fc
+in mov
+in pop
+vm.dx: 77
+in xor
+vm.dx: a4 vm.ax: d3
+in mov
+mov ax enc[cx-1]  ax: a4
+s start
+201 28 71 237 22 69 83 108 68 25 218 138 23 101 242 27 103 226 41 131 252 80 148 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 129 133 95 209 33 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 113 17 197 11 184 154 73 177 203 176 172 234 159 187 46 214 192 110 75 90 174 246 53 82 10 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 121 9 77 29 210 54 205 219 20 88 153 150 199 212 140 126 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 224 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 14 regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 14 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 15
+in mov
+mov ax, s[cx]  cx: 15 ax: 79
+in mov
+in pop
+vm.dx: 5f
+in xor
+vm.dx: 69 vm.ax: 36
+in mov
+mov ax enc[cx-1]  ax: 69
+s start
+201 28 71 237 22 69 83 108 68 25 218 138 23 101 242 27 103 226 41 131 252 121 148 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 129 133 95 209 33 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 113 17 197 11 184 154 73 177 203 176 172 234 159 187 46 214 192 110 75 90 174 246 53 82 10 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 80 9 77 29 210 54 205 219 20 88 153 150 199 212 140 126 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 224 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 15 regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 15 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 16
+in mov
+mov ax, s[cx]  cx: 16 ax: 21
+in mov
+in pop
+vm.dx: 65
+in xor
+vm.dx: 9d vm.ax: f8
+in mov
+mov ax enc[cx-1]  ax: 9d
+s start
+201 28 71 237 22 69 83 108 68 25 218 138 23 101 242 27 103 226 41 131 252 121 33 149 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 129 133 95 209 148 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 113 17 197 11 184 154 73 177 203 176 172 234 159 187 46 214 192 110 75 90 174 246 53 82 10 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 80 9 77 29 210 54 205 219 20 88 153 150 199 212 140 126 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 152 114 118 224 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 16 regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 16 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 17
+in mov
+mov ax, s[cx]  cx: 17 ax: 98
+in mov
+in pop
+vm.dx: 6e
+in xor
+vm.dx: 30 vm.ax: 5e
+in mov
+mov ax enc[cx-1]  ax: 30
+s start
+201 28 71 237 22 69 83 108 68 25 218 138 23 101 242 27 103 226 41 131 252 121 33 152 61 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 136 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 129 133 95 209 148 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 113 17 197 11 184 154 73 177 203 176 172 234 159 187 46 214 192 110 75 90 174 246 53 82 10 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 80 9 77 29 210 54 205 219 20 88 153 150 199 212 140 126 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 149 114 118 224 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 17 regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 17 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 18
+in mov
+mov ax, s[cx]  cx: 18 ax: 88
+in mov
+in pop
+vm.dx: 31
+in xor
+vm.dx: 38 vm.ax: 9
+in mov
+mov ax enc[cx-1]  ax: 38
+s start
+201 28 71 237 22 69 83 108 68 25 218 138 23 101 242 27 103 226 41 131 252 121 33 152 136 229 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 61 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 129 133 95 209 148 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 113 17 197 11 184 154 73 177 203 176 172 234 159 187 46 214 192 110 75 90 174 246 53 82 10 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 80 9 77 29 210 54 205 219 20 88 153 150 199 212 140 126 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 149 114 118 224 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 18 regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 18 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 19
+in mov
+mov ax, s[cx]  cx: 19 ax: 1b
+in mov
+in pop
+vm.dx: 68
+in xor
+vm.dx: a1 vm.ax: c9
+in mov
+mov ax enc[cx-1]  ax: a1
+s start
+201 28 71 237 22 69 83 108 68 25 218 138 23 101 242 229 103 226 41 131 252 121 33 152 136 27 125 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 61 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 129 133 95 209 148 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 113 17 197 11 184 154 73 177 203 176 172 234 159 187 46 214 192 110 75 90 174 246 53 82 10 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 80 9 77 29 210 54 205 219 20 88 153 150 199 212 140 126 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 149 114 118 224 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 19 regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 19 vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1a
+in mov
+mov ax, s[cx]  cx: 1a ax: a
+in mov
+in pop
+vm.dx: 63
+in xor
+vm.dx: 39 vm.ax: 5a
+in mov
+mov ax enc[cx-1]  ax: 39
+s start
+201 28 71 237 22 69 83 108 68 25 218 138 23 101 242 229 103 226 41 131 252 121 33 152 136 27 10 105 89 185 5 144 104 51 135 221 78 156 165 225 85 42 61 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 129 133 95 209 148 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 113 17 197 11 184 154 73 177 203 176 172 234 159 187 46 214 192 110 75 90 174 246 53 82 125 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 80 9 77 29 210 54 205 219 20 88 153 150 199 212 140 126 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 149 114 118 224 45 107 26 66 130 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 1a regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 1a vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1b
+in mov
+mov ax, s[cx]  cx: 1b ax: 82
+in mov
+in pop
+vm.dx: 40
+in xor
+vm.dx: 83 vm.ax: c3
+in mov
+mov ax enc[cx-1]  ax: 83
+s start
+201 28 71 237 22 69 83 108 68 25 218 138 23 101 242 229 103 226 41 131 252 121 33 152 136 27 10 130 89 185 5 144 104 51 135 221 78 156 165 225 85 42 61 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 143 24 72 164 49 39 129 133 95 209 148 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 113 17 197 11 184 154 73 177 203 176 172 234 159 187 46 214 192 110 75 90 174 246 53 82 125 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 80 9 77 29 210 54 205 219 20 88 153 150 199 212 140 126 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 149 114 118 224 45 107 26 66 105 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 1b regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 1b vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1c
+in mov
+mov ax, s[cx]  cx: 1c ax: 8f
+in mov
+in pop
+vm.dx: 6d
+in xor
+vm.dx: e vm.ax: 63
+in mov
+mov ax enc[cx-1]  ax: e
+s start
+201 28 71 237 22 69 83 108 68 25 218 138 23 101 242 229 103 226 41 131 252 121 33 152 136 27 10 130 143 185 5 144 104 51 135 221 78 156 165 225 85 42 61 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 89 24 72 164 49 39 129 133 95 209 148 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 113 17 197 11 184 154 73 177 203 176 172 234 159 187 46 214 192 110 75 90 174 246 53 82 125 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 80 9 77 29 210 54 205 219 20 88 153 150 199 212 140 126 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 149 114 118 224 45 107 26 66 105 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 1c regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 1c vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1d
+in mov
+mov ax, s[cx]  cx: 1d ax: 6c
+in mov
+in pop
+vm.dx: 5f
+in xor
+vm.dx: c3 vm.ax: 9c
+in mov
+mov ax enc[cx-1]  ax: c3
+s start
+201 28 71 237 22 69 83 185 68 25 218 138 23 101 242 229 103 226 41 131 252 121 33 152 136 27 10 130 143 108 5 144 104 51 135 221 78 156 165 225 85 42 61 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 89 24 72 164 49 39 129 133 95 209 148 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 113 17 197 11 184 154 73 177 203 176 172 234 159 187 46 214 192 110 75 90 174 246 53 82 125 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 80 9 77 29 210 54 205 219 20 88 153 150 199 212 140 126 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 149 114 118 224 45 107 26 66 105 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 1d regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 1d vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1e
+in mov
+mov ax, s[cx]  cx: 1e ax: 17
+in mov
+in pop
+vm.dx: 6c
+in xor
+vm.dx: e3 vm.ax: 8f
+in mov
+mov ax enc[cx-1]  ax: e3
+s start
+201 28 71 237 22 69 83 185 68 25 218 138 5 101 242 229 103 226 41 131 252 121 33 152 136 27 10 130 143 108 23 144 104 51 135 221 78 156 165 225 85 42 61 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 89 24 72 164 49 39 129 133 95 209 148 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 113 17 197 11 184 154 73 177 203 176 172 234 159 187 46 214 192 110 75 90 174 246 53 82 125 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 70 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 80 9 77 29 210 54 205 219 20 88 153 150 199 212 140 126 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 149 114 118 224 45 107 26 66 105 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 1e regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 1e vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 1f
+in mov
+mov ax, s[cx]  cx: 1f ax: 46
+in mov
+in pop
+vm.dx: 40
+in xor
+vm.dx: bb vm.ax: fb
+in mov
+mov ax enc[cx-1]  ax: bb
+s start
+201 28 71 237 22 69 83 185 68 25 218 138 5 101 242 229 103 226 41 131 252 121 33 152 136 27 10 130 143 108 23 70 104 51 135 221 78 156 165 225 85 42 61 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 89 24 72 164 49 39 129 133 95 209 148 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 113 17 197 11 184 154 73 177 203 176 172 234 159 187 46 214 192 110 75 90 174 246 53 82 125 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 144 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 80 9 77 29 210 54 205 219 20 88 153 150 199 212 140 126 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 149 114 118 224 45 107 26 66 105 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 1f regs.rsi: 20
+jmp to 36
+in inc cx
+vm.cx: 1f vm.cx_addr: 1d27f070
+reg_addr: 1d27f070, reg: 20
+in mov
+mov ax, s[cx]  cx: 20 ax: 16
+in mov
+in pop
+vm.dx: 75
+in xor
+vm.dx: d9 vm.ax: ac
+in mov
+mov ax enc[cx-1]  ax: d9
+s start
+201 28 71 237 104 69 83 185 68 25 218 138 5 101 242 229 103 226 41 131 252 121 33 152 136 27 10 130 143 108 23 70 22 51 135 221 78 156 165 225 85 42 61 163 44 94 117 147 151 109 186 166 96 60 198 67 173 190 124 240 37 65 52 55 4 84 253 8 18 14 194 132 141 116 137 171 48 134 89 24 72 164 49 39 129 133 95 209 148 183 146 123 169 86 245 34 230 102 223 3 255 167 36 232 127 241 1 182 79 211 62 238 196 2 157 81 113 17 197 11 184 154 73 177 203 176 172 234 159 187 46 214 192 110 75 90 174 246 53 82 125 200 216 92 50 227 145 106 202 21 160 178 250 235 57 111 144 98 207 215 87 161 35 47 158 112 97 19 170 188 40 142 220 120 91 59 231 179 128 30 16 248 7 236 249 175 122 0 43 239 180 217 208 6 15 228 80 9 77 29 210 54 205 219 20 88 153 150 199 212 140 126 222 100 251 31 139 243 74 119 155 254 244 213 191 76 162 12 193 204 38 168 99 32 58 195 233 149 114 118 224 45 107 26 66 105 247 115 93 206 181 63 189 13 64 56 s end
+jne failed 54
+in cmp 0
+vm.cx: 20 regs.rsi: 20
+jne failed 59
+congratulations
