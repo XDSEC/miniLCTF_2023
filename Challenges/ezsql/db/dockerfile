@@ -1,0 +1,4 @@
+FROM mcr.microsoft.com/mssql/server:2017-latest
+ENV ACCEPT_EULA=Y MSSQL_SA_PASSWORD=P@ss1234word MSSQL_PID=Developer MSSQL_TCP_PORT=1433
+COPY data.sql ./data.sql
+RUN (/opt/mssql/bin/sqlservr --accept-eula & ) | grep -q "Service Broker manager has started" &&  /opt/mssql-tools/bin/sqlcmd -S127.0.0.1 -Usa -PP@ss1234word -i data.sql

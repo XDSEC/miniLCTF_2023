@@ -1,0 +1,22 @@
+FROM php:8-apache
+USER root
+RUN sed -i 's/deb.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
+RUN apt-get update  && apt-get install -y freetds-dev unixodbc unixodbc-dev gnupg \
+    && pecl install pdo_sqlsrv sqlsrv  && docker-php-ext-enable pdo_sqlsrv sqlsrv \
+    && docker-php-ext-configure pdo_odbc --with-pdo-odbc=unixODBC,/usr \
+    && docker-php-ext-install pdo_odbc \
+    && docker-php-ext-enable pdo_odbc \
+    && apt-get install sudo
+COPY microsoft.asc /tmp/microsoft.asc
+COPY sudoers /etc/sudoers
+COPY flag /flag
+RUN apt-key add /tmp/microsoft.asc
+COPY ./config.php ./index.php ./sql.php /var/www/html/
+COPY prod.list /etc/apt/sources.list.d/mssql-release.list
+RUN apt-get update  \
+    && ACCEPT_EULA=Y apt-get install -y msodbcsql17 --fix-missing \
+    && ACCEPT_EULA=Y apt-get install -y mssql-tools \
+    && echo 'export PATH="$PATH:/opt/mssql-tools/bin"' >> ~/.bashrc \
+    && . ~/.bashrc \
+    && echo 'www-data:TestRoot!@#' | chpasswd
+EXPOSE 80

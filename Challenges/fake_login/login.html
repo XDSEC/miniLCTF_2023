@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <style>
+        body {
+            background-color: #e7e2e2;
+        }
+
+        form {
+            margin: 50px auto;
+            padding: 20px;
+            max-width: 400px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px #999;
+            text-align: center;
+        }
+
+        label {
+            display: inline-block;
+            width: 100px;
+            text-align: right;
+        }
+
+        input {
+            width: 200px;
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+            box-shadow: 0px 0px 5px #ccc;
+            margin-bottom: 10px;
+        }
+
+        button[type="submit"] {
+            background-color: #0066cc;
+            color: #fff;
+            padding: 5px 20px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #004499;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="login-form">
+        <h2>用户登录</h2>
+        <label for="username">用户名：</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">密码：</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <button type="submit">登录</button>
+    </form>
+
+    <script>
+        const loginForm = document.getElementById('login-form');
+
+        loginForm.addEventListener('submit', (event) => {
+            event.preventDefault();
+
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            const xmlData = `<user><username>${username}</username><password>${password}</password></user>`;
+
+            const xhr = new XMLHttpRequest();
+
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === XMLHttpRequest.DONE) {
+                    if (xhr.status === 200) {
+                        var message = JSON.parse(xhr.responseText).message;
+                        alert(message);
+                    } else {
+                        var message = JSON.parse(xhr.responseText).message;
+                        alert(message);
+                    }
+                }
+            }
+
+            xhr.open('POST', '/login');
+            xhr.setRequestHeader('Content-Type', 'application/xml');
+            xhr.send(xmlData);
+        });
+
+    </script>
+</body>
+
+</html>

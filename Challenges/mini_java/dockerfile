@@ -1,0 +1,15 @@
+FROM openjdk:8u342-slim
+
+RUN adduser ctf && addgroup ctfgroup && adduser ctf ctfgroup
+USER ctf
+RUN mkdir /opt/app
+
+COPY minil-0.0.1-SNAPSHOT.jar /opt/app
+COPY flag /flag
+COPY nc /bin/
+
+WORKDIR /opt/app
+
+CMD ["java", "-jar", "/opt/app/minil-0.0.1-SNAPSHOT.jar"]
+EXPOSE 8000
+
