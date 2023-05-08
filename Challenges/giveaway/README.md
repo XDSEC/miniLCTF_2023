@@ -1,0 +1,4 @@
+- 题目名称：Giveaway
+- 提名描述：Look! Here's a vending machine selling flags, almost giveaway!
+- 题目附件：给选手下发task.py附件
+- Flag：miniL{We1c0me_TO_M1niL2o23_Crypt0!}
