@@ -1,0 +1,26 @@
+version: '1.0'
+
+services:
+  web:
+    build: ./web
+    ports:
+      - "10003:80"
+    links:
+      - "db"
+    depends_on:
+      - "db"
+    networks:
+      - my-network
+    volumes:
+      - webService:/var/www/html
+  db:
+    build: ./db
+    networks:
+      - my-network
+    volumes:
+      - webService:/var/www/html
+
+volumes:
+  webService:
+networks:
+  my-network:
