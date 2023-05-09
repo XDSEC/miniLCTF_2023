@@ -118,24 +118,24 @@ os.getenv('ENV_PORT')然后就出来了
 ——————————
 ### 1. misc | 逍遥寡王
 
-![1](/WriteUPs/v3ggieB1rd/img/1.png)
+![1](./img/1.png)
 
 可以确定是wav音频文件                                                                                 丢进audacity                                                                               shift+m打开菜单，选择频谱图得到压缩包密码
 
-![2](/WriteUPs/v3ggieB1rd/img/2.png)
+![2](./img/2.png)
 
 
 
-![3](/WriteUPs/v3ggieB1rd/img/3.png)
+![3](./img/3.png)
 
 得到半截flag
 
 010editor中选中所需文本 ctrl+shift+c 复制16进制文本                                                                           ctrl+shift+n 新建十六进制文本                                                                        ctrl+shift+v 粘贴自十六进制文本，得到wav文件                                            
-![4](/WriteUPs/v3ggieB1rd/img/4.png)
+![4](./img/4.png)
 
 sstv，得到flag
 
-![5](/WriteUPs/v3ggieB1rd/img/5.png)
+![5](./img/5.png)
 
 
 
