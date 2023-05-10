@@ -1,0 +1,1 @@
+message=b'miniL{We1c0me_TO_M1niL2o23_Crypt0!} Enjoy the challenges ahead! '

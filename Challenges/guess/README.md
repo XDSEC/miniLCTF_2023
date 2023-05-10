@@ -1,0 +1,4 @@
+- 题目名称：Guess Frenzy
+- 题目附件：给选手下发task.py附件
+- 题目描述：Can you guess the numbers alice chose?
+- Flag：miniL{C0ngr4tu1atio5!U_D0_KnOw_b4ckpacK!!!}
