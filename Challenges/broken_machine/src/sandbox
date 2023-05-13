@@ -1,0 +1,24 @@
+A = arch
+A == ARCH_X86_64 ? next : dead
+A = sys_number
+A >= 0x40000000 ? dead : next
+A == execve ? dead : next
+A == execveat ? dead : next
+A == open ? dead : next
+A == openat ? dead : next
+A == read ? dead : next
+A == readv ? dead : next
+A == pread ? dead : next
+A == preadv ? dead : next
+A == fork ? dead : next
+A == vfork ? dead : next
+A == socket ? dead : next
+A == connect ? dead : next
+A == accept ? dead : next
+A == prctl ? dead : next
+A == ptrace ? dead : next
+A == mmap ? dead : next
+A == mprotect ? dead : next
+return ALLOW
+dead:
+return KILL
